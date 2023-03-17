@@ -54,6 +54,6 @@ function half(n){ //local n created is accessible inside this function only
     return (n/2);
 }
 
-let n=10; //global n is NOT THE SAME n.
-console.log(half(n)){ //local n created is accessble inside
-}
+let n=10; //global n is NOT THE SAME n
+console.log(half(100)); //go to the half function and use THAT n.
+console.log(n); //since there is no direction to go to{}, use the global n
